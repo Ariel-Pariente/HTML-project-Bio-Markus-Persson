@@ -1,0 +1,435 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Minecraft.ttf';
+}
+@font-face{
+	font-family:'Minecraft.ttf';
+	src: url('font/Minecraft.ttf');
+}
+
+
+/* style des fond d'ecrants */
+#myVideo {
+	padding-top: 200px;
+	position: fixed;
+	width: 0px;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+
+/* style de l'index */
+.notch{
+	opacity: .75;
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+.notch:active{
+	transform: rotate(1turn);
+	transition: 1s;
+}
+.musiquetitre{
+	font-weight:none ;
+	color:blanchedalmond;
+	font-family:'Minecraft.ttf';
+	text-align: center;
+	font-size: 50px;
+	background: #252525;
+	width: 900px;
+	padding-top: 10px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 30px;
+	opacity: 0.8;
+}
+
+/* style de carriere */
+h2{
+	font-weight: normal;
+	text-align: center;
+	margin: 30px;
+	font-size: 60px;
+}
+.carrière{
+	position: absolute;
+	display: block;
+	text-align: justify;
+	background: url(image/boit.jpg);
+	border-radius: 10px;
+	color:blanchedalmond;
+	font-size: 27px;
+	font-weight: normal;
+	padding: 30px;
+	margin-top: 80px;
+	margin-right: 300px;
+	margin-left: 300px;
+}
+.mojang{
+	width: 600px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+}
+
+
+
+/* style de vie personelle */
+.vie1 p{
+	margin: -350px;
+	margin-left: 150px;
+	margin-right: 850px;
+	position: absolute;
+	color: blanchedalmond;
+	font-size: 20px;
+	text-align: center;
+}
+.vie2 p{
+	margin: -420px;
+	margin-left: 780px;
+	margin-right: 200px;
+	position: absolute;
+	color: blanchedalmond;
+	font-size: 20px;
+	text-align: center;
+}
+.vie3 p{
+	margin: -420px;
+	margin-left: 200px;
+	margin-right: 780px;
+	position: absolute;
+	color: blanchedalmond;
+	font-size: 17px;
+	text-align: center;
+}
+.vie1 img{
+	margin-top: 30px;
+	position: relative;
+	width: 650px;
+	transform: rotate(0.09turn)
+}
+.vie2 img{
+	margin-top:-300px;
+	margin-left: 620px;
+	position: relative;
+	width: 650px;
+	transform: rotate(0.55turn)
+}
+.vie3 img{
+	margin-top:-230px;
+	margin-left: 60px;
+	position: relative;
+	width: 650px;
+	transform: rotate(0.45turn)
+}
+.vie1:active, .vie2:active, .vie3:active{
+	transform: rotate(1turn);
+	transition: 2s;
+}
+
+
+
+
+
+/* style de mincraft */
+.perso{
+	display: block;
+	margin-left: 900px;
+	margin-right: 200px;
+	position: absolute;
+	margin-top: 100px;
+}
+.perso img{
+	width:300px;
+	padding-top: 100px;
+}
+.perso img:active{
+	transform: rotate(1turn);
+	transition: 1s;
+}
+
+
+.bul1{
+	opacity: .3;
+	margin-top: 100px;
+}
+.bul1:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul1 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul1 p{
+
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 18px;
+}
+.bul2{
+	opacity: .3;
+	margin-top: 200px;
+}
+.bul2:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul2 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul2 p{
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 17px;
+}
+.bul3{
+	opacity: .3;
+	margin-top: 300px;
+	
+}
+.bul3:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul3 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul3 p{
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 17px;
+}
+.bul4{
+	opacity: .3;
+	margin-top: 400px;
+}
+.bul4:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul4 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul4 p{
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 15px;
+}
+.bul5{
+	opacity: .3;
+	margin-top: 390px;
+}
+.bul5:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul5 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul5 p{
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 14px;
+}
+.bul6{
+	opacity: .3;
+	margin-top: 350px;
+}
+.bul6:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul6 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul6 p{
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 15px;
+}
+.bul7{
+	opacity: .3;
+	margin-top: 300px;
+}
+.bul7:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul7 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul7 p{
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 17px;
+}
+.bul8{
+	opacity: .3;
+	margin-top: 300px;
+}
+.bul8:hover{
+	opacity: .95;
+	transition: .4s;
+}
+.bul8 img{
+	margin-left:30px ;
+	margin-top:25px;
+	position: relative;
+	width: 800px;
+	height: 220px;
+}
+.bul8 p{
+	position: absolute;
+	margin-left: 50px;
+	margin-right: 600px;
+	margin-top: -200px;
+	font-size: 20px;
+}
+
+
+.Tableau{
+	margin-left: 40px;
+	margin-top: 200px;
+	position: absolute;
+	color: cornsilk;
+	background: url("image/boit.jpg");
+	text-align: center;
+}
+.Tableau table{
+	padding-left: 100px;
+	border-spacing: 40px;
+}
+
+
+
+/* style de polemique */
+.polemiques{
+	position: relative;
+	display: block;
+	text-align: justify;
+	border-radius: 10px;
+	color:blanchedalmond;
+	font-size: 27px;
+	font-weight: normal;
+	padding: 60px;
+	margin-top: 80px;
+	margin-right: 250px;
+	margin-left: 250px;
+	background: url("image/e6362a569997147521589d812e29053d.png");
+}
+.polemiques h3{
+	text-decoration: none;
+	text-align: center;
+	font-size: 60px;
+	margin-bottom: 60px;
+}
+.polemiques video{
+	height: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 30px;
+}
+.polemiques img:active{
+	transform: rotate(1turn);
+	transition: 1s;
+}
+
+		
+			/* style de l'EE polemique */
+.tape{
+	text-align: center;
+}
+.tape img{
+	height: 450px;
+}
+.tape img:hover{
+	transform: rotate(8turn);
+	transition: 1s;
+}
+.tape img:active{
+	transform: skew(30deg, 200deg);
+	transition: 1s;
+}
+
+
+
+/* style de la nave */
+.menu-bar{
+	background: url("image/boit.jpg");
+	text-align: center;
+	font-size: 30px;
+	opacity:0.95;
+	font-family:'Minecraft.ttf';
+
+}
+.menu-bar ul{
+	display:inline-flex;
+	list-style: none;
+}
+.menu-bar ul li{
+	width: 220px;
+	margin: 20px;
+	text-decoration: none;
+
+}
+.menu-bar ul li a{
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	color: blanchedalmond;
+}
+.menu-bar ul li a:hover{
+	color: rgb(0, 0, 0);
+	border-radius: 3px;
+	transition: 0.4s;
+}
